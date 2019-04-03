@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/menuItem_fontsize"
+                android:title="@string/font_size">
+            <menu >
+                <group android:id="@+id/group_fontsize">
+                    <item android:id="@+id/fontsize_small" android:title="@string/font_10"/>
+                    <item android:id="@+id/fontsize_middle" android:title="@string/font_16"/>
+                    <item android:id="@+id/fontsize_big" android:title="@string/font_20"/>
+                </group>
+            </menu>
+        </item>
+        <item android:id="@+id/menuItem_plain"
+            android:title="@string/plain_item"/>
+
+        <item android:id="@+id/menuItem_fontcolor"
+            android:title="@string/font_color">
+            <menu >
+                <group android:id="@+id/group_fontcolor">
+                    <item android:id="@+id/fontcolor_red" android:title="@string/red_title"/>
+                    <item android:id="@+id/fontcolor_black" android:title="@string/black_title"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>
